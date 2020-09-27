@@ -1,0 +1,28 @@
+{
+ "name": "Naver Mail Unsubscribe",
+ "version": "0.0.1",
+ "description": "Unsubscribe from emails quickly on Naver",
+ "manifest_version": 2,
+  
+ "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+ 
+ "permissions": [
+	"activeTab"
+ ],
+ 
+ "browser_action": {
+    "default_icon": {
+	  "32": "images/img32.png",
+	  "64": "images/img64.png",
+	  "128": "images/img128.png"
+    }
+  },
+  "icons": {
+    "32": "images/img32.png",
+    "64": "images/img64.png",
+    "128": "images/img128.png"
+  }
+}
