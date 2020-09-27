@@ -1,4 +1,3 @@
-// get all checked emails
 var mailList = document.querySelectorAll("#list_for_view > .mailList.sender_context > li");
 var checkedMailList = [];
 for (i=0; i<mailList.length; i++) {
@@ -7,6 +6,4 @@ for (i=0; i<mailList.length; i++) {
 		checkedMailList.push(mailList[i].querySelector(".mTitle > .subject > a").href);
 	}
 }
-console.log(checkedMailList);
-
-// open all checked emails in new tab and run unsubscribe.js
+checkedMailList;

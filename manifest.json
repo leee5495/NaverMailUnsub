@@ -10,7 +10,9 @@
   },
  
  "permissions": [
-	"activeTab"
+ 	"tabs",
+	"activeTab",
+	"*://mail.naver.com/*"
  ],
  
  "browser_action": {
