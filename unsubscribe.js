@@ -6,9 +6,9 @@ window.onload = function(){
 	for (i=0; i<aList.length; i++) {
 		isUnsubLink = false;
 		for (j=0; j<unsubText.length; j++) {
-			if (aList[0].textContent.includes(unsubText[j])){
+			if (aList[i].textContent.includes(unsubText[j])){
 				isUnsubLink = true;
-				unsubLink = aList[0].href;
+				unsubLink = aList[i].href;
 				break;
 			}
 		}
